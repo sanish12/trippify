@@ -1,0 +1,43 @@
+body {
+  background-color: #f9f9f9; }
+
+.row {
+  margin-right: 0; }
+
+.theme-header {
+  color: #39DE2D; }
+
+.theme-btn__main {
+  background-color: #39DE2D;
+  color: #f9f9f9; }
+  .theme-btn__main:hover {
+    color: #f9f9f9; }
+
+nav.navbar a.nav-link {
+  padding: 0.375rem 0.75rem; }
+
+#home-landing {
+  height: 87vh;
+  margin-bottom: 2.5rem; }
+  #home-landing .landing-image {
+    background-size: cover;
+    background: url("../img/landing-image.jpg") no-repeat center;
+    content: ' ';
+    height: 100%;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 15% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 15% 100%); }
+
+#landing-text {
+  padding-top: 4rem; }
+  #landing-text h4 {
+    color: #777; }
+
+.home-process-list {
+  background: #fff; }
+  .home-process-list__header {
+    border-bottom: 3px solid #39DE2D;
+    display: inline;
+    padding: 0.5rem; }
+
+.process-icons {
+  height: 10rem; }

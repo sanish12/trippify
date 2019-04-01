@@ -1,0 +1,3 @@
+
+Primary color - #39DE2D
+Secondary Color - #f9f9f9

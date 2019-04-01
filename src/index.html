@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- import all of the necessary files -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- when the gulp file is run, the scss/style.scss get compiled to style.css -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bootstrap 4 Starter</title>
+</head>
+
+<body>
+    <!-- Start navigation -->
+    <nav class="navbar navbar-expand-lg py-3 navbar-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" aria-disabled="true">Packages</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a href="" class=""><button class='btn theme-btn__main'>Sign Up</button></a>
+                </li>
+                <li class="nav-item px-2">
+                    <a href="" class=""><button class="btn theme-btn__main">Login</button></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- end of navigation -->
+    <div class="row" id='home-landing'>
+        <div class="offset-md-1 col-md-4" id="landing-text">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class='theme-header'>Plan Your Trip In <br>
+                        Installments
+                    </h1>
+                    <h4>Save now, travel tommorow</h4>
+                    <h2 class='theme-header'>What Do You Prefer?</h2>
+                    <select name="" id="trip-type" class="my-3">
+                        <option value="trek">Trek</option>
+                        <option value="safari">Safari</option>
+                    </select>
+                    <br>
+                    <button class="btn theme-btn__main">Search</button>
+                </div>
+                <div class="col-12 py-3">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h2>OR</h2>
+                        </div>
+                        <div class="col-md-8">
+                            <button class="btn theme-btn__main">Search for a Location</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-7 pr-0 landing-image">
+            <!-- Landing Image -->
+        </div>
+    </div>
+    <!-- End of landing -->
+    <div class="home-process-list py-3">
+        <div class="container">
+            <div class="row py-2">
+                <div class="col-md-12">
+                    <h2 class="home-process-list__header">
+                        How This Works?
+                    </h2>
+                </div>
+                <div class="col-md-12 py-5">
+                    <div class="wrapper row">
+                        <div class="col-md-4 text-center">
+                            <img src="img/destination.svg" class="img-fluid process-icons " alt="">
+                            <h4 class='py-2'>Choose Your Destination</h4>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img src="img/debit-card.svg" class="img-fluid process-icons" alt="">
+                            <h4 class='py-2'>Pay In Installments</h4>
+                            <h4 class='pt-1'>Save for your travels</h4>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img src="img/suitcase.svg" class="img-fluid process-icons" alt="">
+                            <h4 class='py-2'>Travel To Your Destination</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of about trippify section -->
+    <div class="home-trending-packages">
+        <div class="home-trending-packages__header">
+            <h1 class='pl-3'>
+                TRENDING PACKAGES
+            </h1>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
