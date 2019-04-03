@@ -9,7 +9,7 @@ body {
     margin-right: 0;
 }
 
-.theme-header{
+.theme-header {
     color: $main-color;
 }
 
@@ -31,6 +31,7 @@ nav.navbar a.nav-link {
 #home-landing {
     height: 87vh;
     margin-bottom: 2.5rem;
+
     .landing-image {
         background-size: cover;
         background: url('../img/landing-image.jpg') no-repeat center;
@@ -48,9 +49,11 @@ nav.navbar a.nav-link {
         color: #777;
     }
 }
-.home-process-list{
+
+.home-process-list {
     background: #fff;
-    &__header{
+
+    &__header {
         // background: $main-color;
         border-bottom: 3px solid $main-color;
         display: inline;
@@ -58,6 +61,39 @@ nav.navbar a.nav-link {
     }
 }
 
-.process-icons{
+.process-icons {
     height: 10rem;
+}
+
+.home-trending-packages {
+    &__header {
+        &-text {
+            width: 30%;
+            padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+            background: $main-color;
+            color: $secondary-color;
+            -webkit-clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%);
+            font-size: 2rem;
+        }
+    }
+}
+.package-card{
+    background: url('../img/landing-image.jpg') no-repeat center;
+    background-size: cover;
+    height: 26rem;
+    padding: 0.75rem;
+    &__header{
+        #package-name{
+            text-align: center;
+            padding-bottom: 0.25rem;
+            text-decoration: underline;
+        }
+    }
+    &__text{
+
+    }
+    &__buttons{
+
+    }
 }

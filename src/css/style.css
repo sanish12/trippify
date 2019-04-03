@@ -41,3 +41,22 @@ nav.navbar a.nav-link {
 
 .process-icons {
   height: 10rem; }
+
+.home-trending-packages__header-text {
+  width: 30%;
+  padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+  background: #39DE2D;
+  color: #f9f9f9;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%);
+  font-size: 2rem; }
+
+.package-card {
+  background: url("../img/landing-image.jpg") no-repeat center;
+  background-size: cover;
+  height: 26rem;
+  padding: 0.75rem; }
+  .package-card__header #package-name {
+    text-align: center;
+    padding-bottom: 0.25rem;
+    text-decoration: underline; }
