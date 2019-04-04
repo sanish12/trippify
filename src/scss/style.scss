@@ -1,5 +1,7 @@
 $secondary-color:#f9f9f9;
 $main-color: #39DE2D;
+$text-color: #181515;
+$text-color--reverse: #fff;
 
 body {
     background-color: $secondary-color;
@@ -20,6 +22,13 @@ body {
 
         &:hover {
             color: $secondary-color;
+        }
+
+        a {
+            color: $secondary-color;
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 }
@@ -78,22 +87,38 @@ nav.navbar a.nav-link {
         }
     }
 }
-.package-card{
-    background: url('../img/landing-image.jpg') no-repeat center;
-    background-size: cover;
-    height: 26rem;
-    padding: 0.75rem;
-    &__header{
-        #package-name{
-            text-align: center;
-            padding-bottom: 0.25rem;
-            text-decoration: underline;
-        }
-    }
-    &__text{
 
-    }
-    &__buttons{
+.amazing__card {
+    border-bottom: 5px solid $main-color;
+    color: $text-color;
+    border-radius: 3px 3px 0px 0px;
+    position: relative;
+    height: auto;
+    transition: all .3s;
+    transform: translateY(-5px);
+    background: linear-gradient(170deg, $main-color 0%, $main-color 30%, $text-color--reverse 30%, $text-color--reverse 100%);
 
+    &:hover {
+        transform: translateY(0px);
     }
+
+    &-header {
+        text-decoration: underline;
+    }
+
+    &-image {}
+
+    &-text {}
+
+    &-button {
+        // position: absolute;
+        right: 10%;
+        padding-bottom: 1rem;
+    }
+}
+#load-packages{
+    color: $text-color;
+    border-bottom: 5px solid $main-color;
+    font-size: 1.5rem;
+    padding: 0.5rem;
 }
